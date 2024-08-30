@@ -1,7 +1,6 @@
 package com.mohitsabhadiya123.SaleCampaignManagementSystem.SchedulerTasks;
 
 
-import com.SalesCompaignManagement.SalesCompaign.Service.ServiceForCampaignApply;
 import com.mohitsabhadiya123.SaleCampaignManagementSystem.Models_Entities.CampaignDiscount;
 import com.mohitsabhadiya123.SaleCampaignManagementSystem.Models_Entities.History;
 import com.mohitsabhadiya123.SaleCampaignManagementSystem.Models_Entities.Product;
@@ -9,6 +8,7 @@ import com.mohitsabhadiya123.SaleCampaignManagementSystem.Models_Entities.SaleCa
 import com.mohitsabhadiya123.SaleCampaignManagementSystem.Repository.CampaignRepository;
 import com.mohitsabhadiya123.SaleCampaignManagementSystem.Repository.HistoryRepository;
 import com.mohitsabhadiya123.SaleCampaignManagementSystem.Repository.ProductRepository;
+import com.mohitsabhadiya123.SaleCampaignManagementSystem.Service.ServiceForCampaignApply;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;

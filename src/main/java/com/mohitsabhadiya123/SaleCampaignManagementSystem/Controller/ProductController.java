@@ -1,10 +1,9 @@
 package com.mohitsabhadiya123.SaleCampaignManagementSystem.Controller;
 
-import com.SalesCompaignManagement.SalesCompaign.Models_Entities.Product;
-import com.SalesCompaignManagement.SalesCompaign.Models_Entities.SaleCampaign;
-import com.SalesCompaignManagement.SalesCompaign.Service.CampaignServices;
-import com.SalesCompaignManagement.SalesCompaign.Service.HistoryService;
-import com.SalesCompaignManagement.SalesCompaign.Service.ProductServices;
+
+import com.mohitsabhadiya123.SaleCampaignManagementSystem.Models_Entities.Product;
+import com.mohitsabhadiya123.SaleCampaignManagementSystem.Service.HistoryService;
+import com.mohitsabhadiya123.SaleCampaignManagementSystem.Service.ProductServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
